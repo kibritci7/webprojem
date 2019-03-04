@@ -3,14 +3,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <style>
-body {margin:0;}
-
+<body >{
+background-image: url(arkaplan.jpg); 
+background-repeat: repeat;
+background-attachment: scroll;
+background-color: black;
+background-position: top;-left: 
+background-size:cover;
+}
 .icon-bar {
   width: 100%;
   background-color: #acc6aa;
   overflow: auto;
 }
-
 .icon-bar a {
   float: left;
   width: 20%;
@@ -20,17 +25,15 @@ body {margin:0;}
   color: #35477d;
   font-size: 36px;
 }
-
 .icon-bar a:hover {
   background-color: #6c5b7b;
 }
-
 .active {
   background-color: #c06c84;
 }
-</style>
-<body>
 
+</style>
+<!-- menü başlagıç  -->
 <div class="icon-bar">
   <a class="active" href="#"><i class="fa fa-home"></i></a> 
   <a href="#"><i class="far fa-address-card"></i></a>
@@ -38,6 +41,36 @@ body {margin:0;}
   <a href="#"><i class="fas fa-info-circle"></i></a>
   <a href="#"><i class="fas fa-user-plus"></i></a> 
 </div>
+<!-- menü bitiş  -->
+
+<!-- form dosyası  -->
+<form>
+  isim:<br>
+  <input color=" 0000 "type="text" name="isim" value="ahmet">
+  <br>
+  soyisim:<br>
+  <input type="text" name="soyisim" value="arslan">
+  <br><br>
+  cinsiyet:<br>
+<br>
+    <input type="radio" name="gender" value="erkek" checked>
+  ekek:<br>
+  <input type="radio" name="gender" value="kadın">
+  kadın:<br>
+    <input type="radio" name="gender" value="LGBT">
+
+  lgbt:<br>
+  <br>
+  adres<br>
+    <textarea rows="10" cols="80">fetih mah/aslanlı kışla  caddesi / No =231/ A blok= 6/ Selçuklu / Konya
+  </textarea>
+  <br>
+  <input type="submit" value="gönder">
+  <input type="reset" value="reset">
+
+</form> 
+<!-- form dosyası bitiş  -->
 
 </body>
+
 </html> 
